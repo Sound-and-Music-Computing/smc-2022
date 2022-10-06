@@ -1,4 +1,4 @@
-name: miws2021
+name: smc2022
 
 channels:
   - anaconda
@@ -6,7 +6,7 @@ channels:
   - defaults
 
 dependencies:
-  - python=3.7
+  - python=3.8
   - Cython
   - matplotlib
   - numpy
@@ -17,9 +17,8 @@ dependencies:
   - ipython
   - pandas
 
-
   - pip:
+    - torch
     - mido
-    - python-rtmidi
     - partitura
     - SoundFile
